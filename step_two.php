@@ -40,17 +40,12 @@ $name_err=$radio_err="";
 			<?php
 		}
 
-        
-
 $today = date("D M dS Y"); 
 echo "<p>Thanks $name </p><br>Today is $today and seems like you are tired an wanted to try something new!!.<br>Take a deep breath grab a cup of coffee and relax meanwhile we will make a creature for you.Click the button when you are ready to see it??</p>";
 
 ?>
 		
-		
-	
-			
-			<input type='button' value='click here' id="link"><br><br>
+	    <input type='button' value='click here' id="link"><br><br>
 		<div id="hidden">
 <?php
 $description= array("These sneaky little devils seem intent on becoming the archetypal visiting alien.  Roswell saw their emergence into the limelight during an ill-fated expedition to spy on American atomic secrets, or radar or God-knows what.  Whatever the reason, there they were, altering world history forever.  Swiftly came the National Security state, MJ12 and the development of an exceedingly successful anti-flying saucer campaign by the intelligence services.  These critters abduct humans, mutilate cattle and invade our skies with impunity. It's no wonder the secret's kept under wraps.","These mad beasts terrorise Puerto Rico and surrounding islands.  The “goat-suckers” have even been sighted in Mexico and Florida.  Whether they're aliens, biological experiments given free reign or a hitherto undiscovered natural predator remains to be seen.  But a flying mini T-Rex with mad eyes should keep zoologists guessing for a while yet.","These are saurian 'grey' type entities which are apparently somewhat taller than the usually-encountered greys yet with extremely thin 'rail-like' torso and limbs yet very strong.
@@ -77,8 +72,7 @@ $images_robots=array("images/robot.png","images/robot1.jpg","images/robot2.jpeg"
    
     mail('eric.chen@senecacollege.com', 'A New Creature is created!', $message_body);
 				
-                                    
-                }
+                    }
 
 					else {
                     echo 'Name: '.ucwords(strtolower($name)).'bots!<br><br>';
@@ -100,16 +94,13 @@ $images_robots=array("images/robot.png","images/robot1.jpg","images/robot2.jpeg"
 ?>
             </div>
 	</div>	
-
-
-
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script>
 
-$("#link").click(function()
+				$("#link").click(function()
 				 {
 					$("#hidden").slideDown(3000);
-});
+				});
 
 
 </script>

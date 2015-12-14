@@ -15,9 +15,7 @@
 </head>
 <body>
 			
-	
-	
-	<div id="holder">
+<div id="holder">
 
 <h1>Seneca College</h1>
 <h2>Webmaster Program</h2>
